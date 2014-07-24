@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", Courier, monospace, verdana;
+}
+h2 {
+	text-align: center;
+	color: #47AA42;
+}
+#container {
+	width: 100%;
+	float: left;
+}
+.content {
+	border-bottom: 1px solid #BCBDC0;
+	padding-bottom: 10px;
+}
+.main {
+	float: left;
+	width: 100%;
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    margin: 10px 0;
+}
+.calendar_div {
+	min-height: 205px;
+	float: left;
+	background-color: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    margin:  0 0 10px 3px;
+    position: relative;
+}
+.calendar {
+	width: 290px;
+	float: left;
+	min-height: 200px;
+	background: #3D72CC;
+	margin: 0 10px;
+}
+.table {
+	width: 20%;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+td.current {
+	background: #FDB813;
+	font-weight: bold;
+	color: #0078AE;
+}
+td.event {
+	background: #FDB813;
+	font-weight: bold;
+	color: #0078AE;
+	cursor: pointer;
+}
+td.day {
+	text-align: center;
+	cursor: pointer;
+}
+td.daily {
+	text-align: center;
+	cursor: pointer;
+}
+th {
+text-align: center;
+}
+caption {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #CE355C;
+}
+label {
+display: inline;
+}
+.content .form-control {
+	width: 40%;
+	display: inline;
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer {
+	border-top: 1px solid #BCBDC0;
+	padding-top: 10px; 
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+footer p {
+	text-align: center;
+}
+.label-success label.control-label {
+	padding-left: 15px;
+}
+
+caption a.month_year {
+	font-weight: bold;
+	color: #CE355C;
+}
+caption a.month_year:hover {
+	color: #3D72CC;
+	text-decoration: none;
+}
+.pager {
+	margin: 0;
+	width: 100%;
+	position: absolute;
+}
+.pager li.next{
+	right: 0;
+}
+.pager li > a, .pager li > span {
+	border: 0px solid #DDDDDD;
+
+}
